@@ -1,4 +1,4 @@
-import imgHero from '../../assets/imgHero.png'
+import imgHero from '../../assets/imgHero.webp'
 
 export default function Hero() {
   return (

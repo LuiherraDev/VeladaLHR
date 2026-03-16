@@ -1,4 +1,4 @@
-import logoVelada from '../../assets/logoVeladaFondo.svg'
+import logoVelada from '../../assets/logoVeladaFondo.webp'
 
 const Header = () => {
   return (
