@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-libre: "Libre Baskerville", serif;
+  --font-jost: "Jost", sans-serif;
+
+  --font-weight-reg: 400;
+  --font-weight-semibold: 600;
+
+  --color-txt-primary: #FFFFFF;
+  --color-txt-secondary: #CCCCCC;
+  --color-txt-holder: #A96304;
+}
+
+@utility font-libre-reg {
+  @apply font-libre font-reg;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@utility font-libre-semi {
+  @apply font-libre font-semibold;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@utility font-jost-reg {
+  @apply font-jost font-reg;
+  font-style: normal;
+}
+
+@utility font-jost-semi {
+  @apply font-jost font-semibold;
+  font-style: normal;
+}
+
+@utility text-gold-gradient {
+  background-image: linear-gradient(135deg,
+      #893802 0%,
+      #BA8D6B 35%,
+      #E7D4C9 50%,
+      #BA8D6B 65%,
+      #893802 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* text-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(249, 227, 149, 0.3); */
+}
+
+@layer base {
+  main {
+    @apply text-txt-secondary bg-black antialiased;
+  }
+
+  a {
+    @apply hover:text-txt-holder transition;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
