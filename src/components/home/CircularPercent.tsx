@@ -1,20 +1,21 @@
 interface CircularProgressProps {
-  percentage: number
+  percentage: number;
+  option: string;
 }
 
-const CircularProgress = ({ percentage }: CircularProgressProps) => {
-  const radius = 160;
+const CircularProgress = ({ percentage, option }: CircularProgressProps) => {
+  const radius = 140;
   const stroke = 30;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
     <div className="relative flex items-center justify-center">
-      <svg className="transform -rotate-90 w-90 h-90">
+      <svg className="transform -rotate-90 w-80 h-80">
 
         <circle
-          cx="180"
-          cy="180"
+          cx="160"
+          cy="160"
           r={radius}
           stroke="currentColor"
           strokeWidth={stroke}
@@ -23,8 +24,8 @@ const CircularProgress = ({ percentage }: CircularProgressProps) => {
         />
 
         <circle
-          cx="180"
-          cy="180"
+          cx="160"
+          cy="160"
           r={radius}
           stroke="url(#progressGradient)"
           strokeWidth={stroke}
@@ -47,6 +48,7 @@ const CircularProgress = ({ percentage }: CircularProgressProps) => {
 
       <div className="absolute flex flex-col items-center">
         <span className="text-5xl font-bold tracking-tighter">
+          <p className="text-2xl text-txt-holder">{option}</p>
           {percentage}%
         </span>
       </div>
