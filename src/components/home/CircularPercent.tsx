@@ -1,12 +1,12 @@
 interface CircularProgressProps {
-  porcentaje: number
+  percentage: number
 }
 
-const CircularProgress = ({ porcentaje }: CircularProgressProps) => {
+const CircularProgress = ({ percentage }: CircularProgressProps) => {
   const radius = 160;
   const stroke = 30;
   const circumference = 2 * Math.PI * radius;
-  const offset = circumference - (porcentaje / 100) * circumference;
+  const offset = circumference - (percentage / 100) * circumference;
 
   return (
     <div className="relative flex items-center justify-center">
@@ -47,7 +47,7 @@ const CircularProgress = ({ porcentaje }: CircularProgressProps) => {
 
       <div className="absolute flex flex-col items-center">
         <span className="text-5xl font-bold tracking-tighter">
-          {porcentaje}%
+          {percentage}%
         </span>
       </div>
     </div>

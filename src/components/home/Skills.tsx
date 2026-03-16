@@ -5,11 +5,11 @@ const Skills = () => {
 
   const [percentage, setPercentage] = useState(0);
   const skills = [
-    { name: "Javascript", value: 10 },
-    { name: "React", value: 20 },
-    { name: "Node.js", value: 30 },
-    { name: "Typescript", value: 40 },
-    { name: "Mongodb", value: 50 },
+    { name: "Javascript", value: 70 },
+    { name: "React", value: 60 },
+    { name: "Node.js", value: 60 },
+    { name: "Typescript", value: 70 },
+    { name: "Mongodb", value: 60 },
   ]
 
   return (
@@ -27,7 +27,7 @@ const Skills = () => {
           </button>
         ))}
       </div>
-      <CircularProgress porcentaje={percentage} />
+      <CircularProgress percentage={percentage} />
     </section>
   )
 }

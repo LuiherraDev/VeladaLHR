@@ -1,4 +1,7 @@
 import imgHero from '../../assets/imgHero.webp'
+import infojobs from '../../assets/infojobs.webp'
+import linkedin from '../../assets/linkedin.webp'
+import github from '../../assets/github.webp'
 
 export default function Hero() {
   return (
@@ -17,9 +20,22 @@ export default function Hero() {
 
       </div>
 
-      <div className="relative mb-8 order-1 md:order-2">
+      <div className="relative mb-12 order-1 md:order-2">
         <div className="w-120 h-120">
           <img alt="Luis Hernández" className="w-full h-full" src={imgHero} />
+          <div className='flex flex-row justify-center items-center gap-20'>
+            <a href="https://www.infojobs.net/sevilla/programador-web-para-velada-vi/of-ia56eb7e9cb4921866babab7c6f9e1d" target="_blank">
+              <img alt='InfojobsIcon' src={infojobs} />
+            </a>
+            <a href="https://www.linkedin.com/in/luis-hernández-ramírez-99619115b" target="_blank">
+              <img alt='LinkedinIcon' src={linkedin} />
+            </a>
+            <a href="https://github.com/LuiherraDev" target="_blank">
+              <img alt='GithubIcon' src={github} />
+            </a>
+
+          </div>
+
         </div>
       </div>
 

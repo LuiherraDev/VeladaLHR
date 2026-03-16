@@ -9,8 +9,8 @@ const Projects = () => {
           <span className="text-txt-holder">iaia</span> es una plataforma web en desarrollo pensada para conectar a personas mayores con cuidadores que puedan ofrecer apoyo y acompañamiento.
           La idea surge de la necesidad de facilitar el acceso a cuidados y asistencia, utilizando una interfaz sencilla que permita poner en contacto a quienes necesitan ayuda con quienes pueden proporcionarla. Este proyecto forma parte de mi proceso de aprendizaje como Junior Full Stack Developer.
         </p>
-        <button className="bg-transparent border border-white/40 px-8 py-2 text-[10px] font-jost-semi tracking-widest hover:bg-txt-holder hover:text-black transition">
-          + INFO
+        <button className="bg-transparent border rounded-sm border-white/40 px-8 py-2 text-sm font-jost-semi tracking-widest hover:bg-txt-holder/60 transition">
+          + INFO (...Proximamente...)
         </button>
       </div>
     </section>

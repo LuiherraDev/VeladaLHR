@@ -56,7 +56,7 @@
   }
 
   a {
-    @apply hover:text-txt-holder transition;
+    @apply border-none cursor-pointer;
   }
 }
 
