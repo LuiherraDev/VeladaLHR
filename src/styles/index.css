@@ -61,5 +61,8 @@
 }
 
 body {
+  background: black;
+  height: 800vh;
   overflow-x: hidden;
+  overscroll-behavior: none;
 }
