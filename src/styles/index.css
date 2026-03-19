@@ -60,9 +60,13 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: black;
-  height: 800vh;
+  height: 600vh;
   overflow-x: hidden;
   overscroll-behavior: none;
 }

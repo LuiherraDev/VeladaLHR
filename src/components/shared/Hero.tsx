@@ -20,22 +20,18 @@ export default function Hero() {
 
       </div>
 
-      <div className="relative mb-12 order-1 md:order-2">
-        <div className="w-100 h-100">
-          <img alt="Luis Hernández" className="w-full h-full" src={imgHero} />
-          <div className='flex flex-row justify-center items-center gap-20'>
-            <a href="https://www.infojobs.net/sevilla/programador-web-para-velada-vi/of-ia56eb7e9cb4921866babab7c6f9e1d" target="_blank">
-              <img alt='InfojobsIcon' src={infojobs} />
-            </a>
-            <a href="https://www.linkedin.com/in/luis-hernández-ramírez-99619115b" target="_blank">
-              <img alt='LinkedinIcon' src={linkedin} />
-            </a>
-            <a href="https://github.com/LuiherraDev" target="_blank">
-              <img alt='GithubIcon' src={github} />
-            </a>
-
-          </div>
-
+      <div className="relative order-1 md:order-2 w-80 h-80 sm:w-100 sm:h-100">
+        <img alt="Luis Hernández" className="w-full h-full object-cover" src={imgHero} />
+        <div className='absolute inset-0 flex flex-wrap justify-between items-end'>
+          <a className='flex transition-transform hover:scale-110' href="https://www.infojobs.net/sevilla/programador-web-para-velada-vi/of-ia56eb7e9cb4921866babab7c6f9e1d" target="_blank">
+            <img alt='InfojobsIcon' src={infojobs} />
+          </a>
+          <a className='flex transition-transform hover:scale-110' href="https://www.linkedin.com/in/luis-hernández-ramírez-99619115b" target="_blank">
+            <img alt='LinkedinIcon' src={linkedin} />
+          </a>
+          <a className='flex transition-transform hover:scale-110' href="https://github.com/LuiherraDev" target="_blank">
+            <img alt='GithubIcon' src={github} />
+          </a>
         </div>
       </div>
 
