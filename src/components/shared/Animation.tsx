@@ -66,7 +66,7 @@ const Animation = () => {
       <div ref={mainContainer} className="relative h-screen overflow-hidden bg-black">
 
         <div className="parallax-bg absolute inset-0 flex justify-center pointer-events-none">
-          <img src={fondoVelada} className=' scale-150' />
+          <img src={fondoVelada} className=' scale-150 object-cover' />
         </div>
 
         <div className="relative z-10 flex h-full flex-col justify-between items-center pointer-events-none ">
@@ -88,7 +88,7 @@ const Animation = () => {
 
         <div className="why-section absolute bottom-10 w-full pointer-events-none">
 
-          <img src={fondoIntro} className='flex justify-center w-full h-full object-cover' />
+          <img src={fondoIntro} className='w-full h-full object-cover' />
           <div className='absolute items-center justify-center top-1/2 left-1/2 -translate-x-1/2'>
             <h3 className='text-center mb-10 font-libre-semi text-gold-gradient text-5xl'>
               ¿Por qué quiero participar?
