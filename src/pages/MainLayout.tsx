@@ -33,6 +33,7 @@ const MainLayout = () => {
         scrub: 1,
         pin: true,
         onLeave: () => {
+          container?.classList.remove('h-screen', 'overflow-hidden');
           gsap.set(container, { height: "auto", overflow: "visible" });
           gsap.set(".first-section", { position: "relative" });
           gsap.set(".intro-layers", { display: "none" });
@@ -47,12 +48,15 @@ const MainLayout = () => {
             }
           }
           requestAnimationFrame(() => {
-            ScrollTrigger.refresh();
+            requestAnimationFrame(() => {
+              ScrollTrigger.refresh();
+            });
           });
         },
         onEnterBack: () => {
           gsap.set(".intro-layers", { display: "block" });
           gsap.set(".first-section", { position: "absolute", top: 0, width: "100%" });
+          container?.classList.add('h-screen', 'overflow-hidden');
           gsap.set(container, { height: "100vh", overflow: "hidden" });
 
           if (fixedHeaderRef.current) {
