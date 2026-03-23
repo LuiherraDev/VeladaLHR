@@ -10,8 +10,8 @@ const CircularProgress = ({ percentage, option }: CircularProgressProps) => {
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
-    <div className="relative flex items-center justify-center">
-      <svg className="transform -rotate-90 w-80 h-80">
+    <div className="relative flex items-center justify-center w-full max-w-80 mx-auto">
+      <svg className="transform -rotate-90 w-full h-auto" viewBox="0 0 320 320">
 
         <circle
           cx="160"
