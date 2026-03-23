@@ -26,7 +26,7 @@ export default function Hero() {
           <a className='flex transition-transform hover:scale-110' href="https://www.infojobs.net/sevilla/programador-web-para-velada-vi/of-ia56eb7e9cb4921866babab7c6f9e1d" target="_blank">
             <img alt='InfojobsIcon' src={infojobs} />
           </a>
-          <a className='flex transition-transform hover:scale-110' href="https://www.linkedin.com/in/luis-hernández-ramírez-99619115b" target="_blank">
+          <a className='flex transition-transform hover:scale-110' href="https://www.linkedin.com/in/luis-hern%C3%A1ndez-ram%C3%ADrez/" target="_blank">
             <img alt='LinkedinIcon' src={linkedin} />
           </a>
           <a className='flex transition-transform hover:scale-110' href="https://github.com/LuiherraDev" target="_blank">
