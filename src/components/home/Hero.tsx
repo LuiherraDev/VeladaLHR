@@ -1,4 +1,4 @@
-import imgHero from '../../assets/imgHero.webp'
+import me from '../../assets/me.webp'
 import infojobs from '../../assets/infojobs.webp'
 import linkedin from '../../assets/linkedin.webp'
 import github from '../../assets/github.webp'
@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
 
       <div className="relative order-1 md:order-2 w-80 h-80 sm:w-100 sm:h-100">
-        <img alt="Luis Hernández" className="w-full h-full object-cover" src={imgHero} />
+        <img alt="Luis Hernández" className="w-full h-full object-cover" src={me} />
         <div className='absolute inset-0 flex flex-wrap justify-between items-end'>
           <a className='flex transition-transform hover:scale-110' href="https://www.infojobs.net/sevilla/programador-web-para-velada-vi/of-ia56eb7e9cb4921866babab7c6f9e1d" target="_blank">
             <img alt='InfojobsIcon' src={infojobs} />

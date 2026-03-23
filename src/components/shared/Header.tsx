@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router'
-import logoVelada from '../../assets/logoVeladaFondo.webp'
+import logoVelada from '../../assets/logoVelada.webp'
 
 const Header = ({ bgClass = "bg-black" }: { bgClass?: string }) => {
   const location = useLocation();
