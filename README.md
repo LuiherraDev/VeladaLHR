@@ -23,6 +23,12 @@ Una **web inmersiva tipo portfolio-candidatura** construida desde cero para demo
 
 ---
 
+## 📷 Imágenes del Proyecto
+
+![mainScreen](./images/mainScreen.jpg)
+
+---
+
 ## ✨ Características Principales
 
 | Característica | Descripción |
