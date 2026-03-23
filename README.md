@@ -2,7 +2,7 @@
 
 # 🥊 VeladaLHR — La Velada del Año VI
 
-### Candidatura interactiva de ![**Luis Hernández**](https://www.linkedin.com/in/luis-hern%C3%A1ndez-ram%C3%ADrez/) para participar en el desarrollo web de **La Velada VI**
+### Candidatura interactiva de [**Luis Hernández**](https://www.linkedin.com/in/luis-hern%C3%A1ndez-ram%C3%ADrez/) para participar en el desarrollo web de **La Velada VI**
 
 <br/>
 
@@ -188,7 +188,7 @@ npm run preview
 
 <div align="center">
 
-### Hecho con dedicación por ![**Luis Hernández**](https://www.linkedin.com/in/luis-hern%C3%A1ndez-ram%C3%ADrez/) para La Velada del Año VI
+### Hecho con dedicación por [**Luis Hernández**](https://www.linkedin.com/in/luis-hern%C3%A1ndez-ram%C3%ADrez/) para La Velada del Año VI
 
 *"Este proyecto sería una oportunidad para aplicar mis conocimientos en un entorno real y contribuir a un evento que sigo desde sus primeras ediciones."*
 
