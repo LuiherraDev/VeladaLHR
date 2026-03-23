@@ -24,7 +24,7 @@ const Skills = () => {
             onClick={() => (setPercentage(skill.value),
               setOption(skill.name)
             )}
-            className={`px-5 cursor-pointer transition-colors text-sm hover:text-txt-holder ${index !== skills.length - 1 ? "border-r border-white/40 " : ""}`}
+            className={`px-5 cursor-pointer transition-colors text-sm hover:text-txt-holder ${option === skill.name ? "text-[#BA8D6B]" : ""} ${index !== skills.length - 1 ? "border-r border-white/40 " : ""}`}
           >
             {skill.name.toUpperCase()}
           </button>
