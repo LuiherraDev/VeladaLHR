@@ -65,6 +65,10 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 8rem;
+}
+
 body {
   background: black;
   overflow-x: hidden;
