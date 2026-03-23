@@ -148,7 +148,7 @@ const MainLayout = () => {
               </h2>
             </div>
 
-            <img className="parallax-item mb-5 w-10" src={flechaScroll} />
+            <img className="parallax-item mb-15 w-10" src={flechaScroll} />
           </div>
 
           <div className="why-section absolute inset-0 w-full h-full pointer-events-none">
