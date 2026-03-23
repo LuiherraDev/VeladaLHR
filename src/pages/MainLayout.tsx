@@ -84,6 +84,12 @@ const MainLayout = () => {
       }
     });
 
+    gsap.from(".parallax-bg img", {
+      opacity: 0,
+      duration: 5,
+      ease: "power2.out"
+    });
+
     gsap.to(".parallax-item", {
       y: 15,
       duration: 0.8,
@@ -121,7 +127,7 @@ const MainLayout = () => {
 
         <div className="intro-layers absolute inset-0">
           <div className="parallax-bg absolute inset-0 flex justify-center pointer-events-none">
-            <img src="/fondoVelada.webp" className='w-full h-full object-cover scale-150' />
+            <img src="/fondoVelada.webp" fetchPriority="high" decoding="async" className='w-full h-full object-cover scale-150' />
           </div>
 
           <div className="relative z-10 flex h-full flex-col justify-between items-center pointer-events-none ">
