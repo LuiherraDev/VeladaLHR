@@ -1,5 +1,3 @@
-import fondoVelada from '../../assets/fondoVelada.webp'
-
 const Contact = () => {
   return (
     <section className="px-8 mx-auto h-screen text-center w-full relative" id="contacto">
@@ -19,7 +17,7 @@ const Contact = () => {
 
       </div>
 
-      <img alt="Footer decoration" className="w-full h-full object-cover" src={fondoVelada} />
+      <img alt="Footer decoration" className="w-full h-full object-cover" src="/fondoVelada.webp" />
     </section>
   )
 }
