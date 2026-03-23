@@ -17,15 +17,24 @@
 
 ---
 
-## 🎯 ¿Qué es este proyecto?
-
-Una **web inmersiva tipo portfolio-candidatura** construida desde cero para demostrar mis habilidades como desarrollador y mi motivación para formar parte del equipo que construirá la web de **La Velada del Año VI**. No es un simple currículum — es una experiencia visual completa con animaciones cinematográficas, parallax y transiciones fluidas.
-
----
-
 ## 📷 Imágenes del Proyecto
 
 ![mainScreen](./images/mainScreen.jpg)
+<br>
+<br>
+![introScreen](./images/introScreen.jpg)
+<br>
+<br>
+![heroScreen](./images/heroScreen.jpg)
+<br>
+<br>
+![scroll](./images/scroll.jpg)
+
+---
+
+## 🎯 ¿Qué es este proyecto?
+
+Una **web inmersiva tipo portfolio-candidatura** construida desde cero para demostrar mis habilidades como desarrollador y mi motivación para formar parte del equipo que construirá la web de **La Velada del Año VI**. No es un simple currículum — es una experiencia visual completa con animaciones cinematográficas, parallax y transiciones fluidas.
 
 ---
 
