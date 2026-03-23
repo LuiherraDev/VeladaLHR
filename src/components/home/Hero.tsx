@@ -43,12 +43,7 @@ export default function Hero() {
         <h4 className="text-lg font-jost-reg text-txt-secondary tracking-widest mb-1">Herramientas</h4>
         <p className="text-lg font-jost-semi text-txt-primary">Trello, GitHub</p>
       </div>
-      {/* <div className="flex justify-center space-x-6">
-        <a className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-velada-gold transition group" href="#">
-        </a>
-        <a className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-velada-gold transition group" href="#">
-        </a>
-      </div> */}
+
     </section>
   )
 }

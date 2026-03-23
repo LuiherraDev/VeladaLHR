@@ -3,7 +3,7 @@ import Contact from "../components/home/Contact"
 import Projects from "../components/home/Projects"
 import Skills from "../components/home/Skills"
 
-const Home = () => {
+const MainLayout = () => {
   return (
     <main>
       <About />
@@ -13,4 +13,4 @@ const Home = () => {
     </main>
   )
 }
-export default Home
+export default MainLayout
