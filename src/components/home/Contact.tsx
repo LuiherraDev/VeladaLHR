@@ -6,8 +6,6 @@ const Contact = () => {
         <h4 className="font-jost-reg text-txt-secondary mb-8">¿Hablamos?</h4>
         <div className="flex flex-col justify-center items-center gap-2 text-lg sm:flex-row" >
           <a className='hover:text-txt-holder transition' href="mailto:luiherra25@gmail.com">luiherra25@gmail.com</a>
-          <span className="hidden sm:inline opacity-30">|</span>
-          <a className='flex hover:text-txt-holder transition' href="tel:+34645052251">645 05 22 51</a>
         </div>
         <div className='mt-10'>
           <a href='https://github.com/LuiherraDev/VeladaLHR' target='_blank' className="bg-txt-holder/40 border rounded-sm px-8 py-2 text-xs font-jost-semi tracking-widest hover:bg-txt-holder/70 transition">
