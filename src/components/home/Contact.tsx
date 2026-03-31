@@ -4,7 +4,7 @@ const Contact = () => {
       <div className='absolute items-center justify-center top-1/6 left-1/2 -translate-x-1/2 -translate-y-1/2'>
         <h3 className="font-jost-semi text-txt-primary tracking-[0.3em] uppercase mb-2 text-lg">Contacto</h3>
         <h4 className="font-jost-reg text-txt-secondary mb-8">¿Hablamos?</h4>
-        <div className="flex flex-col justify-center items-center gap-2 text-xs sm:flex-row" >
+        <div className="flex flex-col justify-center items-center gap-2 text-lg sm:flex-row" >
           <a className='hover:text-txt-holder transition' href="mailto:luiherra25@gmail.com">luiherra25@gmail.com</a>
           <span className="hidden sm:inline opacity-30">|</span>
           <a className='flex hover:text-txt-holder transition' href="tel:+34645052251">645 05 22 51</a>
