@@ -136,16 +136,14 @@ const MainLayout = () => {
 
           <div className="relative z-10 flex h-full flex-col justify-between items-center pointer-events-none ">
             <div className=" parallax-text-1 text-center font-libre-semi text-txt-secondary text-sm sm:text-xl tracking-[.3em] sm:tracking-[.5em] leading-6 sm:leading-8 mt-10">
-              <h2 className="mt-10">
+              <h1 className="mt-10">
                 <p>HOLA,</p>
                 <p>SOY <span className='text-gold-gradient'>LUIS HERNÁNDEZ</span>,</p>
                 <p>JUNIOR FULL STACK DEVELOPER</p>
-              </h2>
-              <h2 className="mt-10">
-                <p>Y ME ENCANTARÍA AYUDAR A</p>
+                <p className="mt-10">Y ME ENCANTARÍA AYUDAR A</p>
                 <p>CONSTRUIR LA WEB DE</p>
                 <p><span className='text-gold-gradient'>LA VELADA DEL AÑO VI</span></p>
-              </h2>
+              </h1>
             </div>
 
             <img className="parallax-item mb-25 w-10" src={flechaScroll} />
